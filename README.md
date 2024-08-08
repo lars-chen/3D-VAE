@@ -1,6 +1,8 @@
 
 # Conditional VAE for 3D Medical Imaging
-A Res-Net Style VAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions.
+A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions. The data set was synthesized from the pre-trained diffusion model from [Pinaya et al. (2022)](https://arxiv.org/abs/2209.07162)
+
+This repository serves as the basic architecture being used for 
 
 
 ## Training Examples
