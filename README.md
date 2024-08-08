@@ -1,13 +1,10 @@
 
-# CNN-VAE
-A Res-Net Style VAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions. <br>
+# Conditional VAE for 3D Medical Imaging
+A Res-Net Style VAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions.
 
+![Interpolation](gifs/ld1154_vvol_cond3.gif)
 
-# Training Examples
-<b>Notes:</b><br>
-Avoid using a Bottle-Neck feature map size of less than 4x4 as all conv kernels are 3x3, if you do set --num_res_blocks to 0 to avoid adding a lot of model parameters that won't do much <br>
-If you can only train with a very small batch size consider using GroupNorm instead of BatchNorm, aka set --norm_type to gn.<br>
-
+## Training Examples
 ```
 python train_vae.py -mn test_run --dataset_root #path to dataset root#
 ```
