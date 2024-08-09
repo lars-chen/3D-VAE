@@ -2,10 +2,11 @@
 # Conditional VAE for 3D (Brain) Imaging
 A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions. The data set I used for this repository was synthesized from the pre-trained diffusion model from [Pinaya et al. (2022)](https://arxiv.org/abs/2209.07162). However, any 3D data would work here.
 
-This repository serves as the basic architecture for another project, hence the repository is a bit messy.
+At the moment, the model conditions the latent space of brain volume and ventricle volume. Here, we see an example of interpolating the ventricle volume of a specific brain reconstruction from 50 ml to 150 ml:
 
-![](gifs/2brain_1.gif){height=100}
-
+<div align="center">
+<img src="gifs/brain_1.gif" height=200>  <img src="gifs/brain_2.gif" height=200> <img src="gifs/brain_3.gif" height=200>
+</div>
 
 ## Training Examples
 
