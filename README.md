@@ -4,6 +4,8 @@ A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separa
 
 This repository serves as the basic architecture for another project, hence the repository is a bit messy.
 
+![](gifs/2brain_1.gif){height=250}
+
 
 ## Training Examples
 
