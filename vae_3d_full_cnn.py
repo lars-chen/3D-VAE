@@ -1,3 +1,7 @@
+# This file provides a fully CNN architecture, where the latent space is calculated using 3D convolutional layers for the mean 
+# and log variance for q(z|x). This saves VRAM by avoiding fully connected layers, but a likely drawback is that global information is 
+# less strongly encoded.
+
 import torch
 import torch.nn as nn
 import torch.utils.data
