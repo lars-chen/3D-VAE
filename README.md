@@ -1,6 +1,6 @@
 
 # Conditional VAE for 3D (Brain) Imaging
-A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions. The data set was synthesized from the pre-trained diffusion model from [Pinaya et al. (2022)](https://arxiv.org/abs/2209.07162)
+A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separable convolutions. The data set I used for this repository was synthesized from the pre-trained diffusion model from [Pinaya et al. (2022)](https://arxiv.org/abs/2209.07162). However, any 3D data would work here.
 
 This repository serves as the basic architecture for another project, hence the repository is a bit messy.
 
