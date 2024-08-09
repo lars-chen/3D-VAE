@@ -4,6 +4,12 @@ A Res-Net Style CVAE for 3D Imaging data utilizing lightweight depth-wise separa
 
 This repository serves as the basic architecture for another project, hence the repository is a bit messy.
 
+![Interpolating between different conditioned brain ventricle volumes](./gifs/interp_vent_1.gif)
+
+![image info](./gifs/interp_vent_2.gif)
+
+![image info](./gifs/interp_vent_3.gif)
+
 ## Training Examples
 
 ```
